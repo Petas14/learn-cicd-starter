@@ -13,7 +13,7 @@ func TestGetAPIKey_Success(t *testing.T) {
     if err != nil {
         t.Fatalf("esperava nil erro, recebeu: %v", err)
     }
-    if key != "123456" {
+    if key != "000000" {
         t.Errorf("esperava chave 123456, recebeu: %v", key)
     }
 }
